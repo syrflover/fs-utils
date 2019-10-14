@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "commonjs",
+        "lib": ["es2015"],
+        "sourceMap": true,
+        "outDir": "./build",
+        "strict": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "moduleResolution": "node",
+        "declaration": true,
+        "declarationMap": true,
+        "removeComments": false
+    },
+    "include": ["src/**/*.ts"]
+}
