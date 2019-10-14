@@ -7,5 +7,3 @@ export { rm } from './lib/rm';
 
 export const mkdir = fs.promises.mkdir;
 export const rename = fs.promises.rename;
-
-export default _fs;
